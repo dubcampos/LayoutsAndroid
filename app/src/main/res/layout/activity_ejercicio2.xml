@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ejercicio2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:padding="5dp"
+        android:src="@drawable/xyz"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_weight="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in elit sagittis, posuere nibh in, ullamcorper est. Nulla vel feugiat velit, et congue ante. Sed vitae lobortis eros. Aliquam porttitor varius varius. Vestibulum scelerisque cursus varius. Suspendisse suscipit arcu dui, et congue urna interdum sed. Maecenas ut maximus sapien. Vestibulum consequat dapibus tellus, in consectetur diam ultrices vel. Morbi ut sodales risus. Pellentesque scelerisque, risus vel cursus ultricies, velit lacus ullamcorper turpis, efficitur fringilla nisi turpis ac sem. Aenean quis erat fermentum, vestibulum tortor sit amet, rutrum enim. Aliquam erat volutpat. Pellentesque eget rhoncus nisi. Nam rutrum magna at nisl laoreet, et gravida ligula consequat.
+
+Nullam luctus tellus vel lectus maximus, molestie ultricies ante commodo. Etiam vulputate sem lacus, a luctus quam facilisis quis. Praesent aliquet diam nunc, vel mattis quam commodo id. Nam eros eros, venenatis vitae turpis et, laoreet tempus ex. Duis congue augue id augue euismod, et semper nulla vehicula. Nam gravida ultrices magna, ut egestas orci mattis id. Sed porttitor nec arcu quis efficitur. Morbi et orci a felis rhoncus cursus.
+
+Sed nisi elit, commodo in risus sit amet, varius dapibus lectus. Donec mattis elementum mollis. Pellentesque quis rutrum sem, ut finibus elit. Pellentesque pretium iaculis eros ac mattis. Mauris congue ultricies nunc quis condimentum. Cras fermentum odio quis nibh porttitor, ut porttitor nisi ultrices. Phasellus in enim interdum leo tincidunt scelerisque. Etiam tincidunt, lorem sed lacinia sollicitudin, purus velit porta metus, a rutrum urna neque at quam. Curabitur vulputate, arcu a ornare accumsan, risus orci eleifend nunc, a sodales ex leo eu turpis. Donec et nulla vitae leo egestas consequat. Maecenas blandit elit fermentum tincidunt sodales. Maecenas venenatis ante quis fermentum ultrices.
+
+Proin imperdiet mollis sapien eu egestas. Maecenas vel porta arcu. Quisque a felis turpis. Sed sed turpis velit. Pellentesque pretium est ante, porttitor pellentesque ante consectetur ut. Integer feugiat, neque ac luctus condimentum, ex nibh faucibus metus, vitae ornare nibh nulla non orci. Quisque sit amet justo non orci egestas ultrices. Donec accumsan ultrices sapien quis tincidunt. Sed vestibulum, ex et commodo elementum, urna mauris lobortis arcu, ac mollis magna urna vel nunc. Donec ac mauris in lorem tempus tempus. Mauris elementum egestas nibh et aliquet. Mauris interdum erat nec porttitor pulvinar. Morbi eget nibh tortor. Pellentesque ultrices ligula vitae vestibulum hendrerit. Nullam dapibus, augue vitae elementum porttitor, magna ex tincidunt magna, vitae fermentum purus quam at erat. Etiam in urna a mauris interdum venenatis at sit amet nibh.
+
+Duis malesuada lacus eu urna aliquet, sed semper felis sodales. Nam efficitur dignissim eros quis commodo. Suspendisse et orci nisl. Sed et aliquam velit, et cursus arcu. Proin auctor ac elit at elementum. Praesent aliquam consectetur justo eu ullamcorper. Phasellus tristique mi congue dignissim scelerisque. Vivamus quis risus consequat, cursus mauris volutpat, ultrices risus. Nullam imperdiet fermentum risus sed finibus. Curabitur tellus massa, facilisis vitae efficitur in, mollis vitae leo. Sed tempus porta nibh ac sollicitudin. Donec sodales pretium imperdiet. Cras rutrum, libero eu lobortis mattis, elit quam finibus dui, interdum consectetur nibh nisi sed leo." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
