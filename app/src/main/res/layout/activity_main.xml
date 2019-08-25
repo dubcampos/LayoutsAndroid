@@ -22,7 +22,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button32"
+            android:id="@+id/btn_ej1"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -30,11 +30,12 @@
             android:layout_weight="1"
             android:height="25dp"
             android:gravity="center"
+            android:onClick="ToEjercicio1"
             android:text="Ejercicio 1"
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button33"
+            android:id="@+id/btn_ej2"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -42,11 +43,12 @@
             android:layout_weight="1"
             android:height="25dp"
             android:gravity="center"
+            android:onClick="ToEjercicio2"
             android:text="Ejercicio 2"
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button34"
+            android:id="@+id/btn_ej3"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -54,11 +56,12 @@
             android:layout_weight="1"
             android:height="25dp"
             android:gravity="center"
+            android:onClick="ToEjercicio3"
             android:text="Ejercicio 3"
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button35"
+            android:id="@+id/btn_ej4"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -66,11 +69,12 @@
             android:layout_weight="1"
             android:height="25dp"
             android:gravity="center"
+            android:onClick="ToEjercicio4"
             android:text="Ejercicio 4"
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button36"
+            android:id="@+id/btn_ej5"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -78,11 +82,12 @@
             android:layout_weight="1"
             android:height="25dp"
             android:gravity="center"
+            android:onClick="ToEjercicio5"
             android:text="Ejercicio 5"
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button37"
+            android:id="@+id/btn_ej6"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -90,6 +95,7 @@
             android:layout_weight="1"
             android:height="25dp"
             android:gravity="center"
+            android:onClick="ToEjercicio6"
             android:text="Ejercicio 6"
             android:textAlignment="center" />
 
